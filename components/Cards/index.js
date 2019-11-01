@@ -27,28 +27,36 @@ axios
       createCard.appendChild((newCard1));
     })
   })
+axios
+  .get('https://lambda-times-backend.herokuapp.com/articles')
   .then(response => {
     response.data.articles.javascript.forEach(info => {
       const newCard1 = newCard(info)
       createCard.appendChild((newCard1));
     })
   })
+axios
+  .get('https://lambda-times-backend.herokuapp.com/articles')
   .then(response => {
     response.data.articles.jquery.forEach(info => {
       const newCard1 = newCard(info)
       createCard.appendChild((newCard1));
     })
   })
+axios
+  .get('https://lambda-times-backend.herokuapp.com/articles')
   .then(response => {
     response.data.articles.node.forEach(info => {
       const newCard1 = newCard(info)
       createCard.appendChild((newCard1));
     })
   })
+axios
+  .get('https://lambda-times-backend.herokuapp.com/articles')
   .then(response => {
     response.data.articles.technology.forEach(info => {
-      const newCard1 = newCard(info)
-      createCard.appendChild((newCard1));
+      const newCard5 = newCard(info)
+      createCard.appendChild((newCard5));
     })
   })
 
