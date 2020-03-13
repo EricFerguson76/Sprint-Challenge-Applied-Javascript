@@ -55,8 +55,8 @@ axios
   .get('https://lambda-times-backend.herokuapp.com/articles')
   .then(response => {
     response.data.articles.technology.forEach(info => {
-      const newCard5 = newCard(info)
-      createCard.appendChild((newCard5));
+      const newCard1 = newCard(info)
+      createCard.appendChild((newCard1));
     })
   })
 
